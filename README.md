@@ -23,6 +23,7 @@ Berisi skrip untuk merangkum berita pasar modal dari IQPlus.
 Berisi skrip untuk mengambil dan mengolah data harga saham dari Yahoo Finance.
 - `plot_stock_data.py` : Menyediakan visualisasi data harga saham hasil agregasi.
 - `stock_to_spark.py` : Mengambil data historis saham dari yfinance dan mengagregasinya ke dalam periode harian, mingguan, bulanan, tahunan (1, 3, 5 tahun), dengan pemrosesan menggunakan Apache Spark. Hasilnya dapat dengan cepat digunakan untuk plotting via plotly API
+- stock_to_spark.py : Mengambil data historis saham dari yfinance dan mengagregasinya ke dalam periode harian, mingguan, bulanan, tahunan (1, 3, 5 tahun), dengan pemrosesan menggunakan Apache Spark. Hasilnya dapat dengan cepat digunakan untuk plotting via plotly.
 - `tickers.xlsx` : File Excel yang berisi daftar ticker saham yang digunakan sebagai input.
 
 ## Fitur Utama

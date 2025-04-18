@@ -16,8 +16,8 @@ Berisi skrip untuk mengambil dan mentransformasi data laporan keuangan perusahaa
 
 ### Script IQNews
 Berisi skrip untuk merangkum berita pasar modal dari IQPlus.
-- `rangkum_market.py` : Mengambil dan merangkum berita pasar menggunakan LLM atau teknik NLP lainnya.
-- `rangkum_stock.py` : Mengambil dan merangkum berita saham menggunakan LLM atau teknik NLP lainnya.
+- `rangkum_market.py` : Merangkum berita pasar menggunakan HuggingFace Transformer
+- `rangkum_stock.py` : Merangkum berita saham menggunakan HuggingFace Transformer
 
 ### Script yfinance
 Berisi skrip untuk mengambil dan mengolah data harga saham dari Yahoo Finance.
